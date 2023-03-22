@@ -9,8 +9,8 @@ public class ConnectionFactory {
 	public Connection getConnection() {
 		try {
 			return DriverManager.getConnection(
-					"jdbc:mysql://localhost/Gerenciamento_Escola",
-					"root",
+					"jdbc:mysql://localhost/(Address Name)",
+					"root_User",
 					"password");
 		}
 		catch(SQLException excecao) {
